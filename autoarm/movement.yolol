@@ -1,0 +1,13 @@
+IF :RA1==45 THEN goto4 ELSE goto2 END
+IF :RA1==-90 THEN goto6 ELSE goto1 END
+
+IF :RA1V==45 THEN goto5 ELSE :arms=" deploying..." goto1 END
+:arms="deployed" goto1
+
+IF :RA1V==-90 THEN goto7 ELSE :arms=" retracting..." goto1 END
+:arms="retracted" goto1
+
+//RA1 = turretPitch
+//:RA1V = turretCurreent pitch
+///:arms = display
+//RA2 = first arm segment

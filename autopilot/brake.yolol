@@ -1,0 +1,2 @@
+if :Autopilot==1*:RFD<=999 then :FcuF=0 :FcuB=100 end
+//on passe de 2 lignes à 1, soit 2x plus rapide

@@ -1,0 +1,14 @@
+a = 999 b=100
+if :ap then d=:RFD>=b :FcuF=c*d :FcuB=a*(1-d) :FcuRL=:FcuB end goto 2
+
+//:Ap = bouton autopilot
+//:RFD = RangeFinderDetection
+//:FcuF = FCU forward
+//:FcuB = FCU backward
+//:FcuRL = FCU Left
+
+//on passe de 10 lignes à 1, soit 10x plus rapide
+//avec cette vitesse, le script brake perd de son intéret
+//je l'ai donc supprimé
+// a et b sont des constante, je les sort de la ligne 
+// pour gagner en caractère

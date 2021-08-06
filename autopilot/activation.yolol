@@ -1,0 +1,13 @@
+:H=:Ap :EA=89.5*:Ap :SA=1-:Ap :rf=:Ap :RFSD=1000*:Ap :LCS=8*:T goto 1
+
+//:Ap = bouton autopilot
+//:H = hinge (gestion des hinge)
+//:EA = EndAngle (gestion des hinge)
+//:SA = StartAngle (gestion des hinge)
+//:rf = RangeFindeState
+//:RFSD = RangeFInderStateDistance
+//:LCS = 
+//:T = bouton Toggle pour chnager de vitesse
+
+
+//on passe de 3 lignes à 1, soit 3x plus rapide
